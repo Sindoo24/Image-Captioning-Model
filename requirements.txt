@@ -1,0 +1,14 @@
+torch
+torchvision
+transformers
+streamlit
+Pillow
+evaluate
+rouge_score
+sacrebleu
+bert_score
+absl-py
+nltk
+scikit-learn
+pandas
+datasets
