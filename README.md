@@ -1,4 +1,4 @@
-# 🖼️ AI Image Captioning System
+#  AI Image Captioning Model
 
 **Offline AI image captioning system using BLIP & ViT-GPT2 with validated 45% semantic accuracy.**
 
@@ -7,7 +7,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 
 
-## 📌 Overview
+##  Overview
 This project implements a locally hosted, production-ready AI application capable of generating descriptive captions for images in real-time. It leverages state-of-the-art Vision-Language models (BLIP and ViT-GPT2) to interpret visual scenes and convert them into natural language.
 
 The system includes a robust **evaluation pipeline** validated against the **Flickr8k dataset** (8,000+ images), achieving industry-standard performance metrics suitable for automated metadata tagging and accessibility tools.
@@ -19,7 +19,7 @@ The system includes a robust **evaluation pipeline** validated against the **Fli
 
 
 
-## ✨ Key Features
+##  Key Features
 * **Offline Inference:** Runs heavy transformer models entirely on local hardware (CPU/GPU) without API costs.
 * **Dual Model Architecture:**
     * **High Accuracy:** `Salesforce/blip-image-captioning-large` (Default)
@@ -28,7 +28,7 @@ The system includes a robust **evaluation pipeline** validated against the **Fli
 * **Session History:** Tracks all generated captions and images during the user session.
 * **Scientific Validation:** Integrated evaluation scripts to calculate BLEU, METEOR, and ROUGE-L scores.
 
-## 📊 Performance Metrics
+##  Performance Metrics
 The model was benchmarked on the full **Flickr8k Test Dataset (8,091 images)**.
 
 | Metric | Score | Description |
@@ -39,7 +39,7 @@ The model was benchmarked on the full **Flickr8k Test Dataset (8,091 images)**.
 
 *These results demonstrate strong zero-shot generalization capabilities.*
 
-## 🚀 Installation
+##  Installation
 
 1.  **Clone the repository**
     ```bash
